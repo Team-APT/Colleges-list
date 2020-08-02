@@ -40,7 +40,7 @@ section {
 	overflow: auto;
 }
 
-#Shawarma {
+#Biriyani {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -55,7 +55,7 @@ section {
 	color: #FFFF00;
 }
 
-#Biriyani {
+#Shawarma {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -85,17 +85,17 @@ section {
 	padding: 5px;
 }
 
-#Friedrice-div {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
 #Biriyani-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 #Shawarma-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#Friedrice-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
