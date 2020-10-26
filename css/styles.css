@@ -6,12 +6,12 @@
 
 h1 {
 	font-family: Brushstroke, fantasy;
-	color: #000000;
+	color: black;
 }
 
 body {
 	
-	background-color: #990012;
+	background-color: white;
 
 }
 
@@ -26,7 +26,7 @@ p {
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	padding: 10px;
+	padding: 10px; 
 }
 
 section {
@@ -40,41 +40,41 @@ section {
 	overflow: auto;
 }
 
-#Biriyani {
+#ML {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 35%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
-	margin-bottom: 0;
+	margin-bottom: 25;
 	margin-top: 0;
 	padding: 5px;
 	background-color: black;
 	color: #FFFF00;
 }
 
-#Shawarma {
+#AF {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 35%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 5px;
-	background-color: black;
+	background-color:black;
 	color: #FFFF00;
 }
 
-#Friedrice {
+#ME {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
-	margin-left: 70%;
+	margin-left: 35%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -85,17 +85,17 @@ section {
 	padding: 5px;
 }
 
-#Biriyani-div {
+#ML-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#Shawarma-div {
+#AF-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#Friedrice-div {
+#ME-div {
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -141,3 +141,77 @@ hr {
   color:  white;
   font-size: 1.2em;
 }
+
+.active {
+	background-color: red;
+	color: yellow;
+	font-weight: bolder;
+	border: 1 px solid white;
+	border:1px solid #999999;
+    font-size:20px;
+    display:block;
+    float:left;
+    width:125px;
+    height:27px;
+    display: block; 
+	position: relative;
+	text-align: center;
+	margin-top: auto;
+  }
+
+
+  .wish_button {
+    font-family: Calibri, sans-serif;
+    font-size:13px;
+    font-weight: bold;
+    width: 160px;
+    height: 25px;
+    background:grey;
+	color: white;
+	margin-left: 43%;
+	margin-bottom: 10px;
+}
+.selected {
+    color: white;
+	background:green
+}
+
+.unselected {
+   color: white;
+   background: grey;	
+}
+
+
+
+button#cssColorChange:active{
+    color: white;
+    background:red
+}
+.checked {
+	color: orange;
+	align : center;
+  }
+  .stars-outer {
+	position: relative;
+	display: inline-block;
+  }
+  .stars-inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 0;
+  }
+  .xyz
+  {
+	  margin-left: 500px;
+  }
+  .abc
+  {
+	  margin-left: 500px;
+  }
+  .qwe
+  {
+	  margin-left: 500px;
+  }
